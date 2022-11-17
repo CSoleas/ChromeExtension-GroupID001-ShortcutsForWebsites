@@ -1,0 +1,137 @@
+* {
+    user-select: none;
+}
+
+body {
+    margin: 0;
+}
+
+.ShortcutPage {
+    box-shadow: 0px 2px #d2d4d4;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 278px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding-bottom: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 18px;
+}
+
+.InputField {
+    margin-bottom: 14px;
+    border: 1px solid #e0e1e5;
+    outline-color: #1a73e8;
+    border-radius: 3px;
+    padding: 6px 8px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+    height: 17px;
+    width: 384px;
+    padding-bottom: 9px;
+}
+
+.SaveButton {
+    background-color: #1a73e8;
+    border: 1px solid #1a73e8;
+    border-radius: 4px;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+
+    width: 96px;
+    height: 32px;
+
+    color: white;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+    margin-left: 18px;
+}
+
+.Button {
+    background-color: white;
+    border: 1px solid #e0e1e5;
+    border-radius: 4px;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 550;
+
+    width: 96px;
+    height: 32px;
+
+    color: #1a73e8;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+}
+
+.Cancel {
+    margin-left: 18px;
+}
+
+.Keys {
+    margin-left: 76px;
+}
+
+.SaveButton:focus {
+    outline: 2px solid #1a73e8;
+    border: 1px solid white;
+    border-radius: 4px;
+    outline-color: #1a73e8;
+}
+
+.SaveButton:hover {
+    background-color: #2f7de3;
+    cursor: default;
+}
+
+Button:focus {
+    outline-color: #1a73e8;
+}
+
+.header {
+    color: #1a73e8;
+    margin: 0px;
+    margin-bottom: 18px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.hiddentile {
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 20%;
+    background-color: #1a73e8;
+    transition: width 0.5s ease;
+}
+
+.active {
+    width: 100%;
+}
+
+.hiddentile:nth-child(1) {
+    top: calc(4 * 20%);
+    transition-delay: 0s;
+}
+.hiddentile:nth-child(2) {
+    top: calc(3 * 20%);
+    transition-delay: 0.2s;
+}
+.hiddentile:nth-child(3) {
+    top: calc(2 * 20%);
+    transition-delay: 0.4s;
+}
+.hiddentile:nth-child(4) {
+    top: calc(1 * 20%);
+    transition-delay: 0.6s;
+}
+.hiddentile:nth-child(5) {
+    top: calc(0 * 20%);
+    transition-delay: 0.8s;
+}
